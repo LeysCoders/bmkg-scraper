@@ -1,0 +1,29 @@
+{
+  "name": "bmkg-module",
+  "version": "1.0.2",
+  "description": "this is a free open source of bmkg scraper",
+  "main": "plugins/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeysCoders/bmkg-scraper.git"
+  },
+  "keywords": [
+    "bmkg"
+  ],
+  "author": "Hafizh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeysCoders/bmkg-scraper/issues"
+  },
+  "homepage": "https://github.com/LeysCoders/bmkg-scraper#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.9",
+    "cookie": "^0.4.1",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2"
+  }
+}
